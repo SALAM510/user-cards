@@ -2,12 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
+  position: relative;
 }
 
 .users {
   width: 250px;
-  height: 350px;
+  height: 360px;
   background-color: whitesmoke;
   padding: 20px;
   border: 1px solid lightgray;
@@ -31,5 +32,9 @@
 }
 
 .users:hover{
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2),
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5), 0 10px 30px rgba(0, 0, 0, 0.4)
+}
+
+.tittle{
+  text-align: center;
 }
