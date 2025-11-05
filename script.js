@@ -21,7 +21,7 @@ fetch(url, fetchData)
         return `
         <div class="users">
         <img src="${value.image}" alt="">
-        <p>Name:${value.firstName}-<span>${value.lastName}</span>-<span>${value.maidenName}</span></P>
+        <p>Name:${value.firstName}-<span>${value.lastName}</span></P>
         <p>Age:${value.age}</p>
         <p>Date of Birth:${value.birthDate}</p>
         <p>Gender:${value.gender}</p>
